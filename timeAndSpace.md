@@ -22,5 +22,7 @@ Also bring up tail recursion - tail recursive functions are considered better th
 Space: O(n)
 Time: O(n^2)
 
+Strings are immutable. On each concatenation a new copy of the string is created, so that the overall complexity is O(n^2). The iteration is O(n) and the inner concatenation is O(n) leading to O(n^2).
+
 
 
