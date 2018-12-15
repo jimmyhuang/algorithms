@@ -1,5 +1,3 @@
-
-
 #  Palindrome Check
 ## Iteratively
 * time: O(n^2) | space O(n)
@@ -24,5 +22,5 @@ Time: O(n^2)
 
 Strings are immutable. On each concatenation a new copy of the string is created, so that the overall complexity is O(n^2). The iteration is O(n) and the inner concatenation is O(n) leading to O(n^2).
 
-
+To say that runtime is O(1) means that there is a constant c such that the runtime is bounded above by c, independent of the input. It doesn't mean that it takes constant time (runtime or number of operations).
 
