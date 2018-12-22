@@ -1,5 +1,5 @@
 #  Closest Value BST
-## Iteratively
+## Iterative Approach
 * time: O(n^2) | space O(n)
 
 ## Array
