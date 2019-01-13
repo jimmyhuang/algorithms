@@ -13,4 +13,3 @@ The worker and the parent page communicate using messaging. Each can add a liste
 Node.js is non-blocking and supports forking multiple processes even though it is single-threaded.
 
 ![Event Loop](https://cdn-images-1.medium.com/max/1000/1*evOcy9n3vslkDt0Mj8mBYw.jpeg "Event Loop")
-
