@@ -43,3 +43,38 @@ https://stackoverflow.com/questions/33198849/what-is-the-temporal-dead-zone
 https://stackoverflow.com/questions/31219420/are-variables-declared-with-let-or-const-not-hoisted-in-es6
 
 For let and const, they are hoisted but you cannot access them before the actual declaration is evaluated at runtime
+
+
+
+// DOCTYPE HTML
+http://diveintohtml5.info/semantics.html
+
+
+
+pass by value (primitives)
+let x = 5
+let y = x
+x = 8
+
+x // 8
+y // 5
+
+pass by reference (objects)
+let x = { age: 5 }
+let y = x
+x.age = 8
+
+x // { age: 8 }
+y // { age: 8 }
+
+
+// hide variables
+function Mars(){
+  var x = [{A:1, B:2, C:3},{A:1, B:2, C:3}];
+  this.getArr = function(){
+      return x;
+  }
+}
+var mars = new Mars();
+mars.x; // undefined
+mars.getArr(); // [Object, Object]
